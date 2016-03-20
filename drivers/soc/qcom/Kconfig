@@ -562,6 +562,9 @@ config MSM_CORE_CTL
           current system load and state. It also supports limiting min and
           max online CPUs from userspace.
 
+config STATE_NOTIFIER
+        bool "State Notifier"
+
 source "drivers/soc/qcom/memshare/Kconfig"
 
 endif # ARCH_MSM
